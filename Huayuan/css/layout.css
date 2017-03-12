@@ -31,7 +31,7 @@
 .hd-main-fr ul.nav_site li ul.nav_sild li:hover{color:#ffffff;background:#ff5a00;}
 .hd-main-fr-tel{padding:10px 0 0 0;}
 .hd-main-fr-tel i{display:inline-block;vertical-align:middle;margin:0 10px 5px 0;}
-
+.btn-org{background-color:#ff5a00;color:#ffffff!important;margin-top:2px!important;outline:none!important;}
 /*========= banner ===========*/
 .banner{margin-top:10px;}
 
@@ -43,7 +43,7 @@
 .pro-matter ul.pro-title li:hover{background:#000000;cursor:pointer;}
 .list-matter{background:#ffffff;border:1px solid #ffffff;padding:18px 12px 0 15px;}
 #tab li.current {background:#000000;}
-.pro-list ul{padding:24px 0 0 10px;display:none;}
+.pro-list ul{padding:24px 0 0 0;display:none;}
 .pro-list ul:first-of-type{display:block;}
 .pro-list ul li{display:inline-block;}
 .pro-list ul p.title{padding:18px 13px 14px 13px;text-align:center;color:#666666;font-family:"SimSun";font-size:14px;margin:0!important;}
@@ -122,7 +122,5 @@ textarea:focus,input[type=email]:focus,input[type=text]:focus{border-color:#ff5a
 
 .ora-btn{background-color:#ff5a00!important;border-color:#ff5a00!important;}
 
-
-
-
-
+.toolbar{position:fixed;bottom:1.5rem;right:.75rem;}
+.toolbar a{display:none;border-radius:50%;background:url("../images/telle.png") left center no-repeat;width:50px;height:50px;background-size:100%;box-shadow: 0 .1rem .3rem 0 rgba(0,0,0,0.4);}
